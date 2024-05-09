@@ -1,0 +1,100 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(232, 216, 196);
+    margin: 0;
+    padding: 0;
+    color: rgb(109, 41, 50);
+    font-size: 16px;
+    line-height: 1.6;
+}
+.container {
+    width: 700px; 
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.profile-intro {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.profile-intro img {
+    width: 130px; 
+    height: 150px;
+    border-radius: 50%; 
+    margin: 0 auto; 
+    display: block;
+}
+
+.profile-intro a {
+    display: inline-block;
+    background-color: #8B0000; 
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.profile-intro a:hover {
+    background-color: #6B0000; 
+}
+
+.card-white {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px; 
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card-white h2 {
+    padding-top: 10px; 
+}
+
+.card-white p {
+    padding: 10px 0; 
+}
+a {
+    display: inline-block;
+    background-color: darkred; 
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: red; 
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+footer ul {
+    margin-top: 20px;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 60px; 
+}
+
